@@ -139,10 +139,6 @@ a {
   align-items: center;
   margin: 20px;
 }
-/* .todo-app h2 img{
-    width: 30px;
-    margin-left: 10px;
-} */
 .row {
   display: flex;
   align-items: center;
@@ -280,6 +276,6 @@ a {
   font-weight: 14px;
 }
 
-label{
-    color: rgb(20, 20, 20);
+label {
+  color: rgb(20, 20, 20);
 }
