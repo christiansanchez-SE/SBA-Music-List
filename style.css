@@ -211,6 +211,7 @@ a {
 
 /* ////////// */
 .containerTwo {
+  margin-top: 8em;
   height: auto;
   display: flex;
   justify-content: center;
