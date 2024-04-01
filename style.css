@@ -44,8 +44,8 @@
   color: white;
 }
 
-#lettering{
-    padding: .2em;
+#lettering {
+  padding: 0.2em;
 }
 
 #lettering:hover {
@@ -120,7 +120,7 @@ a {
 .container {
   /* border: solid black; */
   height: auto;
-  padding: 10%;
+  padding: 5%;
   display: flex;
   justify-content: center;
 }
@@ -213,66 +213,73 @@ a {
   border-radius: 30px;
 }
 
-
 /* ////////// */
-.containerTwo{
-    height: auto;
-    display: flex;
-    justify-content: center;
+.containerTwo {
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
-.scrollUp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    outline: none;
-    padding: 16px 35px;
-    background: rgb(254, 81, 99);
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 40px; 
+.scrollUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  padding: 16px 35px;
+  background: rgb(254, 81, 99);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
 }
-
 
 /* ////////////// */
 
-.containerForm{
-    border: solid black;
-    height: auto;
-    padding: 10%;
-    display: flex;
-    justify-content: center;
+.containerForm {
+  /* border: solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
 }
 
-.form{
-    width: 100%;
-    max-width: 550px;
-    background-color: whitesmoke;
-    padding: 30px 30px 30px;
-    border-radius: 15px;
-    display: flex;
-    margin: auto;
+.form {
+  text-align: center;
+  width: 100%;
+  max-width: 550px;
+  background-color: whitesmoke;
+  padding: 30px 30px 30px;
+  border-radius: 15px;
+}
+
+.error {
+  color: red;
 }
 
 .button3 {
-    border: none;
-    outline: none;
-    padding: 16px 16px;
-    background: rgb(254, 81, 99);
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 40px;
-  }
+  border: none;
+  outline: none;
+  padding: 12px 12px;
+  margin: 0.5em;
+  background: rgb(254, 81, 99);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+}
 
-  #choose{
-    flex: 1;
-    border: none;
-    outline: none;
-    padding: 10px;
-    background: #fff;
-    border-radius: 10px;
-    font-weight: 14px;
-  }
+#choose {
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 0.5em;
+  background: #fff;
+  border-radius: 10px;
+  font-weight: 14px;
+}
+
+label{
+    color: rgb(20, 20, 20);
+}

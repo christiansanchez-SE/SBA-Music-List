@@ -50,13 +50,14 @@
 
     <div class="containerForm">
         <div class="form">
-            <form>
-                <label for="choose"><p>Have you found this useful?</p></label>
-                <input id="choose" name="yes or no" required />
-                <button class="button3">Submit</button>
-            </form>
+          <form id="myForm">
+            <label for="choose">Have you found this useful?</label>
+            <input type="text" id="choose" name="yesOrNo" required>
+            <span id="chooseError" class="error"></span><br><br>
+            <button type="submit" class="button3">Submit</button>
+          </form>
         </div>
-    </div>
+      </div>
 
     <div class="containerTwo">
         <button class="scrollUp" onclick="toggleButton()">

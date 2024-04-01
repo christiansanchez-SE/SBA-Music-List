@@ -55,3 +55,21 @@ function toggleButton(){
 }
 
 window.alert("Hey Welcome To My Page, Its Still In Production!");
+
+/////////////
+
+const form = document.getElementById("myForm");
+const chooseInput = document.getElementById("choose");
+const chooseError = document.getElementById("chooseError");
+
+form.addEventListener("submit", function(event) {
+  if (!chooseInput.value.trim()) {
+    chooseError.textContent = "Please enter your response";
+    event.preventDefault(); 
+  } else if (!/^(yes|no)$/i.test(chooseInput.value.trim())) {
+    chooseError.textContent = "Please enter 'yes' or 'no'";
+    event.preventDefault();
+  } else {
+    chooseError.textContent = "";
+  }
+});
